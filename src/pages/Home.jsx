@@ -1,11 +1,17 @@
 import './Home.css';
 import '../index.css';
+import { GiHand } from "react-icons/gi";
 
 function Home() {
   return (
-    <div>
-      <h1 className='text-orange-800'>Welcome to the Home Page</h1>
-    </div>
+    <section className='text-pretty font-principal'>
+      <div>
+      <h2 className="flex items-center">
+          Olá, me chamo Pedro Guidotte <GiHand className="ml-2" />
+        </h2>
+        <h1>Software Engennier</h1>
+      </div>
+    </section>
   );
 }
 
