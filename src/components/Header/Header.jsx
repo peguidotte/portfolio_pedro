@@ -14,14 +14,14 @@ export default function Header() {
                             <NavLink
                                 to={'/'}
                                 className={({ isActive }) =>
-                                    isActive ? 'no-underline' : 'line-through decoration-5 decoration-white'
+                                    isActive ? 'no-underline opacity-100' : 'opacity-50 sm:line-through sm:decoration-5 sm:decoration-white'
                                 }
                             >
                             <span className="text-blue-700 sm:hidden">&#123;</span>Home
                             </NavLink>
                         </li>
-                        <li className="line-through decoration-5 decoration-white hover:font-bold duration-150"><span className="text-yellow-400 sm:hidden">&#40;</span>Projects<span className="text-yellow-400 sm:hidden">&#41;</span></li>
-                        <li className="line-through decoration-5 decoration-white hover:font-bold duration-150 sm:translate-y-7">Contact<span className="text-blue-700 sm:hidden">&#125;</span></li>
+                        <li className="opacity-50 sm:opacity-100 sm:line-through sm:decoration-5 sm:decoration-white hover:font-bold duration-150"><span className="text-yellow-400 sm:hidden">&#40;</span>Projects<span className="text-yellow-400 sm:hidden">&#41;</span></li>
+                        <li className="opacity-50 sm:opacity-100 sm:line-through sm:decoration-5 sm:decoration-white hover:font-bold duration-150 sm:translate-y-7">Contact<span className="text-blue-700 sm:hidden">&#125;</span></li>
                     </ul>
                 </nav>
             </header>
