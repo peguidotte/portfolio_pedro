@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    width:100%;
+    height: 100%;
+  }
+  
+  .background-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: 0; 
+  }
+  
+  .foreground-element {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    width: 62%;
+    height: 62%;
+    border-radius: 100%;
+    background-color: red;
+    z-index: 1; 
+  }
