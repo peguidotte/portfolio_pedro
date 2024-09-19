@@ -1,9 +1,8 @@
 import './About.css';
-import '../../index.css';
-import Foto from '../../assets/pedro.jpeg';
+import Foto from '../../../assets/pedro.jpeg';
 import { ReactTyped } from 'react-typed';
 import Lottie from 'react-lottie';
-import animationData from '../../assets/BorderAnimation.json';
+import animationData from '../../../assets/BorderAnimation.json';
 
 function About() {
   const defaultOptions = {
@@ -30,7 +29,7 @@ function About() {
               backSpeed={100}
               loop
             /></span>
-          Estudant</h1>
+          Student</h1>
         <p className='mb-5 text-balance'>
           Sou um estudante de Engenharia de Software na FIAP e aprofundo meus conhecimentos por conta própria em Java e Front End,
           com a ambição de me tornar um Dev Full Stack. Estou me capacitando ao máximo para aproveitar alguma oportunidade de estágio no mercado de
