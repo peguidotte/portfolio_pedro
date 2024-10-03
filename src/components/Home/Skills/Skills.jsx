@@ -21,11 +21,11 @@ function Skills() {
     ];
 
     const skill_items = skillsData.map((skill, index) => (
-        <Skill key={index} icon={skill.icon} name={skill.name} />
+        <Skill key={index} icon={skill.icon} name={skill.name}/>
     ));
 
     return (
-        <div className='px-8 md:px-14 lg:px-20 xl:px-36'>
+        <div className='sm:px-8 md:px-14 lg:px-20 xl:px-36'>
             <div className="font-principal text-xl sm:text-3xl bg-gradient-to-r from-orange-400 from-1% via-red-500 via-5% to-pink-600 to-20% bg-clip-text text-transparent">
                 Skills:
             </div>

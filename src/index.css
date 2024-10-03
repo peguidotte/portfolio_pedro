@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-section{
+body{
     padding: 20px;
 }
