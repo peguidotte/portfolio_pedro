@@ -16,15 +16,13 @@ import PortfolioImage from "../assets/Portfolio.png";
 
 import { FaSass } from "react-icons/fa";
 import Cards from "../components/Card/Cards.jsx";
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
 
 
 function Projects() {
   const projectsData = [
     {
       name: "E-PitStop",
-      description: "Projeto Fórmula E",
+      description: "Uma rede-social interativa criada para a Fórmula E",
       image: EpitStopImage,
       repo: "https://github.com/peguidotte/E-PitStop__React",
       deploy: "https://e-pit-stop.vercel.app/",
@@ -35,8 +33,20 @@ function Projects() {
       ],
     },
     {
+      name: "Portfólio",
+      description: "Portfólio desenvolvido para expor meus projetos",
+      image: PortfolioImage,
+      repo: "https://github.com/peguidotte/portfolio_pedro",
+      deploy: "",
+      date: "10/2024",
+      tools: [
+        { icon: RiReactjsFill, color: "#61DAFB" },
+        { icon: RiTailwindCssFill, color: "#38B2AC" },
+      ],
+    },
+    {
       name: "Melodia",
-      description: "Projeto Melodia",
+      description: "Uma landing page para um App fictício de streaming de música",
       image: MelodiaImage,
       repo: "https://github.com/peguidotte/Melodia",
       deploy: "https://melodia-bay.vercel.app/",
@@ -49,7 +59,7 @@ function Projects() {
     },
     {
       name: "EcoTrend",
-      description: "Projeto EcoTrend",
+      description: "Um e-commerce para uma loja de produtos sustentáveis",
       image: EcoTrendImage,
       repo: "https://github.com/peguidotte/EcoTrend",
       deploy: "https://eco-trend-lac.vercel.app/",
@@ -62,7 +72,7 @@ function Projects() {
     },
     {
       name: "WasteWise",
-      description: "Projeto WasteWise",
+      description: "Landing page para expor a solução da global solution: blue future",
       image: WasteWiseImage,
       repo: "https://github.com/peguidotte/WasteWise",
       deploy: "https://waste-wise-ibmn.vercel.app/",
@@ -74,28 +84,16 @@ function Projects() {
       ],
     },
     {
-      name: "Mini Rede-Social",
-      description: "Projeto Mini Rede-Social",
+      name: "Mini Rede",
+      description: "Uma mini rede-social desenvolvida para treinar o CRUD",
       image: MiniRedeSocialImage,
       repo: "https://github.com/peguidotte/Mini-Rede-Social",
       deploy: "https://peguidotte.github.io/Mini-Rede-Social/",
-      data: "04/2024",
+      date: "04/2024",
       tools: [
         { icon: RiJavascriptFill, color: "#F7DF1E" },
         { icon: RiCss3Fill, color: "#1572B6" },
         { icon: RiHtml5Fill, color: "#E34F26" },
-      ],
-    },
-    {
-      name: "Portfólio",
-      description: "Projeto Portfólio",
-      image: PortfolioImage,
-      repo: "https://github.com/peguidotte/portfolio_pedro",
-      deploy: "",
-      data: "10/2024",
-      tools: [
-        { icon: RiReactjsFill, color: "#61DAFB" },
-        { icon: RiTailwindCssFill, color: "#38B2AC" },
       ],
     },
   ];
