@@ -1,0 +1,11 @@
+.shadow-box{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+
+.container-cards:hover .shadow-box {
+    transform: rotateY(90deg);
+  }
+  
+  .container-cards .shadow-box:hover {
+    transform: scale(1.05);
+  }

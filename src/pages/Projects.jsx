@@ -16,6 +16,7 @@ import PortfolioImage from "../assets/Portfolio.png";
 
 import { FaSass } from "react-icons/fa";
 import Cards from "../components/Card/Cards.jsx";
+import '../components/Card/Cards.css'
 
 
 function Projects() {
@@ -112,7 +113,7 @@ function Projects() {
   ));
 
   return (
-    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-8">
+    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 container-cards">
       {projectCards}
     </ul>
   );
