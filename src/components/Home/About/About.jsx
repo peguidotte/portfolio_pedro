@@ -1,8 +1,8 @@
 import './About.css';
-import Foto from '../../../assets/pedro.jpeg';
+import Foto from '../../../../public/assets/pedro.jpeg';
 import { ReactTyped } from 'react-typed';
 import Lottie from 'react-lottie';
-import animationData from '../../../assets/BorderAnimation.json';
+import animationData from '../../../../public/assets/BorderAnimation.json';
 
 function About() {
   const defaultOptions = {

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "E-PitStop",
+        "description": "Uma rede-social interativa criada para a Fórmula E",
+        "image": "/public/assets/EpitStop.png",
+        "repo": "https://github.com/peguidotte/E-PitStop__React",
+        "deploy": "https://e-pit-stop.vercel.app/",
+        "date": "present",
+        "tools": [
+            {
+                "icon": "RiReactjsFill",
+                "color": "#61DAFB"
+            },
+            {
+                "icon": "RiTailwindCssFill",
+                "color": "#38B2AC"
+            }
+        ],
+        "details": "Descrição: O projeto E-PitStop foi desenvolvido para aumentar a visibilidade da Fórmula E por meio de uma rede social interativa e gamificada. A plataforma permite postagens, criação de comunidades, interação com equipes, personalização de contas, streaming interativo e visualização de pistas, promovendo um senso de cocriação e engajamento entre os fãs.",
+        "target": "Público-Alvo: Fãs de Fórmula E que desejam uma maior interação com o esporte e sua comunidade, buscando uma experiência mais imersiva e participativa.",
+        "style": "Estilo Visual: O design é moderno e futurista, com cores pretas e azul claro para destaque, seguindo padrões de redes sociais para oferecer uma interface visual atraente e familiar aos usuários."
+    },
+    {
+        "name": "Portfólio",
+        "description": "Portfólio desenvolvido para expor meus projetos",
+        "image": "/public/assets/Portfolio.png",
+        "repo": "https://github.com/peguidotte/portfolio_pedro",
+        "deploy": "",
+        "date": "10/2024",
+        "tools": [
+            {
+                "icon": "RiReactjsFill",
+                "color": "#61DAFB"
+            },
+            {
+                "icon": "RiTailwindCssFill",
+                "color": "#38B2AC"
+            }
+        ],
+        
+        "details": "Descrição: O meu portfólio foi desenvolvido para treinar habilidades em React e Tailwind, além de servir como uma plataforma para expor meus projetos. O foco é apresentar os projetos de forma clara e objetiva, com um design visualmente atraente e funcional.",
+        "target": "Público-Alvo: Contratantes e recrutadores interessados em visualizar os meus projetos e habilidades.",
+        "style": "Estilo Visual: O design é moderno e simples, utilizando preto e branco como base, com gradientes de laranja, vermelho e rosa em alguns elementos, proporcionando uma experiência visual equilibrada entre o clean e o divertido."
+        
+    },
+    {
+        "name": "Melodia",
+        "description": "Uma landing page para um App fictício de streaming de música",
+        "image": "/public/assets/Melodia.png",
+        "repo": "https://github.com/peguidotte/Melodia",
+        "deploy": "https://melodia-bay.vercel.app/",
+        "date": "10/2024",
+        "tools": [
+            {
+                "icon": "RiBootstrapFill",
+                "color": "#7952B3"
+            },
+            {
+                "icon": "FaSass",
+                "color": "#CC6699"
+            },
+            {
+                "icon": "RiHtml5Fill",
+                "color": "#E34F26"
+            }
+        ],
+        "details":"Descrição: O projeto Melodia consiste no desenvolvimento de uma landing page para promover o app de músicas focado em jovens que desejam descobrir novos artistas e criar playlists personalizadas. A plataforma oferece playlists customizadas e som em alta definição, proporcionando uma experiência musical inovadora.",
+        "target":"Público-Alvo: Jovens amantes de música interessados em explorar novos artistas e criar playlists personalizadas.",
+        "style":"Estilo Visual: O design é clean e contemporâneo, com cores vibrantes e tipografia moderna, criando uma interface visual coesa e alinhada à proposta jovem e dinâmica da plataforma."
+    },
+    {
+        "name": "EcoTrend",
+        "description": "Um e-commerce para uma loja de produtos sustentáveis",
+        "image": "/public/assets/Ecotrend.png",
+        "repo": "https://github.com/peguidotte/EcoTrend",
+        "deploy": "https://eco-trend-lac.vercel.app/",
+        "date": "09/2024",
+        "tools": [
+            {
+                "icon": "RiBootstrapFill",
+                "color": "#7952B3"
+            },
+            {
+                "icon": "RiCss3Fill",
+                "color": "#1572B6"
+            },
+            {
+                "icon": "RiHtml5Fill",
+                "color": "#E34F26"
+            }
+        ],
+        "details": "Descrição: O Eco Trend é um projeto de e-commerce de produtos sustentáveis, desenvolvido como parte do Checkpoint 4 da disciplina de Front-End. O site foi construído com HTML, CSS e Bootstrap, seguindo o princípio Mobile-First para garantir uma navegação responsiva. O projeto inclui uma NavBar interativa, carrosséis de promoções e páginas de detalhes de alguns produtos.",
+        "target": "Público-Alvo: Consumidores interessados em produtos sustentáveis e ecológicos, que procuram uma experiência de compra online rápida e intuitiva.",
+        "style": "Estilo Visual: O design é simples e eficiente, com uma paleta de cores verde e branco-bege, transmitindo a proposta ecológica do site. A estrutura segue o estilo tradicional de e-commerce para facilitar a navegação do usuário."
+    },
+    {
+        "name": "WasteWise",
+        "description": "Landing page para expor a solução da global solution: blue future",
+        "image": "/public/assets/WasteWise.png",
+        "repo": "https://github.com/peguidotte/WasteWise",
+        "deploy": "https://waste-wise-ibmn.vercel.app/",
+        "date": "06/2024",
+        "tools": [
+            {
+                "icon": "RiJavascriptFill",
+                "color": "#F7DF1E"
+            },
+            {
+                "icon": "RiCss3Fill",
+                "color": "#1572B6"
+            },
+            {
+                "icon": "RiHtml5Fill",
+                "color": "#E34F26"
+            }
+        ],
+        
+        "details": "Descrição: O projeto WasteWise foi desenvolvido como parte de um desafio para impactar a 'Economia Azul'. A solução envolve lixeiras inteligentes equipadas com balanças e sensores para monitorar, em tempo real, o nível de resíduos e gerar dados que ajudam a combater a poluição marinha. O site apresenta essas tecnologias e como elas podem reduzir o lixo que chega aos oceanos.",
+        "target": "Público-Alvo: O cidadão comum, com foco em conscientizar a população sobre o impacto de suas ações no ambiente marinho e incentivar práticas mais sustentáveis.",
+        "style": "Estilo Visual: O design é informativo, com sections bem definidas, textos e imagens grandes, visando capturar a atenção do leitor e destacar as informações de forma clara."
+                
+    },
+    {
+        "name": "Mini Rede",
+        "description": "Uma mini rede-social desenvolvida para treinar o CRUD",
+        "image": "/public/assets/MiniRedeSocial.png",
+        "repo": "https://github.com/peguidotte/Mini-Rede-Social",
+        "deploy": "https://peguidotte.github.io/Mini-Rede-Social/",
+        "date": "04/2024",
+        "tools": [
+            {
+                "icon": "RiJavascriptFill",
+                "color": "#F7DF1E"
+            },
+            {
+                "icon": "RiCss3Fill",
+                "color": "#1572B6"
+            },
+            {
+                "icon": "RiHtml5Fill",
+                "color": "#E34F26"
+            }
+        ],
+        "details": "Descrição: O projeto Mini-Rede-Social foi desenvolvido para a disciplina de Web Development na FIAP. A plataforma permite que os usuários façam postagens com até três imagens, escolham uma categoria (Todos, Esportes, Memes ou Notícias) e filtrem as postagens por essas opções. É possível editar ou excluir posts, além de visualizar as imagens postadas através de um carrossel.",
+        "target": "Público-Alvo: Estudantes e entusiastas de desenvolvimento web interessados em redes sociais simples para testar funcionalidades básicas de postagem e interação.",
+        "style": "Estilo Visual: O design é simples e focado nas funcionalidades, com uma interface básica que oferece uma experiência de navegação mínima, mas agradável."
+
+    }
+]
