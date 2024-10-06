@@ -113,9 +113,11 @@ function Projects() {
   ));
 
   return (
-    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8 container-cards">
-      {projectCards}
-    </ul>
+    <>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 p-4 container-cards mt-5">
+        {projectCards}
+      </ul>
+    </>
   );
 }
 

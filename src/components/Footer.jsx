@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
       <div className="flex flex-col font-principal gap-3 justify-center items-center md:justify-around md:flex-row mt-20 md:mt-40">
-        <h2 className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent font-semibold text-base">
+        <h2 className="bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent font-semibold text-base text-center">
           Design e site criado por Pedro Guidotte
         </h2>
         <div className="mt-2 flex gap-4 text-3xl">

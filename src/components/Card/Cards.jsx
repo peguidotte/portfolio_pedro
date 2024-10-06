@@ -5,31 +5,31 @@ import "./Cards.css";
 
 function Cards({ name, image, description, repo, deploy, date }) {
   return (
-    <li className="flex flex-col rounded-2xl shadow-box font-principal hover:scale-105 duration-100 ">
-      <div className="flex items-center gap-3">
+    <li className="flex flex-col rounded-2xl shadow-box font-principal hover:scale-105 duration-100 p-2">
+      <div className="flex items-center justify-center gap-3">
         <a href={deploy} target="_blank">
           <img
             src={image}
             alt={name}
-            className="rounded-2xl border-b border-black"
+            className="rounded-t-2xl border-b border-black text-center"
           />
         </a>
       </div>
       <div className="flex justify-between items-baseline p-1">
-        <h1 className="mb-2 font-extrabold text-2xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent">
+        <h1 className="mb-2 font-extrabold sm:text-lg md:text-2xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent">
           {name}
         </h1>
-        <button className="flex items-center gap-2">
-          See details <FaPlus />{" "}
+        <button className="flex items-center text-sm gap-2 md:text-base">
+          See details <FaPlus />
         </button>
       </div>
       <div className="p-2 flex flex-col gap-4">
-        <p className="max-w-[85%]">{description}</p>
+        <p className="text-sm">{description}</p>
         <div className="flex items-center justify-between mr-3">
           <a href={repo} className="flex gap-2 items-center">
             <RiGithubFill className="text-2xl" />
           </a>
-          <span className="text-gray-600 text-sm">{date}</span>
+          <span className="text-gray-600 text-xs">{date}</span>
         </div>
       </div>
     </li>
