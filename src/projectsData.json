@@ -25,7 +25,7 @@
         "description": "Portfólio desenvolvido para expor meus projetos",
         "image": "/assets/Portfolio.png",
         "repo": "https://github.com/peguidotte/portfolio_pedro",
-        "deploy": "",
+        "deploy": "https://portfolio-pedro-smoky.vercel.app/",
         "date": "10/2024",
         "tools": [
             {
