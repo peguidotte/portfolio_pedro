@@ -12,7 +12,7 @@ import {
 } from "react-icons/ri";
 import { FaSass } from "react-icons/fa";
 import { TiArrowBack } from "react-icons/ti";
-import '../components/Card/Cards.css'
+import '../components/Projects/ProjectCard.css'
 
 const iconMap = {
     RiBootstrapFill,
@@ -24,7 +24,7 @@ const iconMap = {
     FaSass
 };
 
-//"bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 text-white py-2 px-4 rounded-3xl"
+
 
 function ProjectDetail() {
     const { name } = useParams();

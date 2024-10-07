@@ -2,7 +2,7 @@
     {
         "name": "E-PitStop",
         "description": "Uma rede-social interativa criada para a Fórmula E",
-        "image": "/public/assets/EpitStop.png",
+        "image": "/assets/EpitStop.png",
         "repo": "https://github.com/peguidotte/E-PitStop__React",
         "deploy": "https://e-pit-stop.vercel.app/",
         "date": "em andamento",
@@ -23,7 +23,7 @@
     {
         "name": "Portfólio",
         "description": "Portfólio desenvolvido para expor meus projetos",
-        "image": "/public/assets/Portfolio.png",
+        "image": "/assets/Portfolio.png",
         "repo": "https://github.com/peguidotte/portfolio_pedro",
         "deploy": "",
         "date": "10/2024",
@@ -46,7 +46,7 @@
     {
         "name": "Melodia",
         "description": "Uma landing page para um App fictício de streaming de música",
-        "image": "/public/assets/Melodia.png",
+        "image": "/assets/Melodia.png",
         "repo": "https://github.com/peguidotte/Melodia",
         "deploy": "https://melodia-bay.vercel.app/",
         "date": "10/2024",
@@ -71,7 +71,7 @@
     {
         "name": "EcoTrend",
         "description": "Um e-commerce para uma loja de produtos sustentáveis",
-        "image": "/public/assets/Ecotrend.png",
+        "image": "/assets/Ecotrend.png",
         "repo": "https://github.com/peguidotte/EcoTrend",
         "deploy": "https://eco-trend-lac.vercel.app/",
         "date": "09/2024",
@@ -96,7 +96,7 @@
     {
         "name": "WasteWise",
         "description": "Landing page para expor a solução da global solution: blue future",
-        "image": "/public/assets/WasteWise.png",
+        "image": "/assets/WasteWise.png",
         "repo": "https://github.com/peguidotte/WasteWise",
         "deploy": "https://waste-wise-ibmn.vercel.app/",
         "date": "06/2024",
@@ -123,7 +123,7 @@
     {
         "name": "Mini Rede",
         "description": "Uma mini rede-social desenvolvida para treinar o CRUD",
-        "image": "/public/assets/MiniRedeSocial.png",
+        "image": "/assets/MiniRedeSocial.png",
         "repo": "https://github.com/peguidotte/Mini-Rede-Social",
         "deploy": "https://peguidotte.github.io/Mini-Rede-Social/",
         "date": "04/2024",

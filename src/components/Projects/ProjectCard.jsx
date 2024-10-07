@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { RiGithubFill } from "react-icons/ri";
 import { FaPlus } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import "./Cards.css";
+import "./ProjectCard.css";
 
 function ProjectCard({ name, image, description, repo, deploy, date }) {
   return (

@@ -20,7 +20,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive
                     ? "no-underline opacity-100 font-bold"
-                    : "opacity-100 sm:line-through sm:decoration-5 sm:decoration-white"
+                    : "opacity-70 sm:line-through sm:decoration-5 sm:decoration-white sm:opacity-100"
                 }
               >
                 <span className="text-blue-700 sm:hidden">&#123;</span>Home
@@ -28,7 +28,7 @@ export default function Header() {
             </li>
 
             <li
-              className="opacity-50 sm:opacity-100 sm:decoration-5 sm:decoration-white 
+              className="
                         hover:font-bold hover:bg-gradient-to-r hover:from-orange-400 hover:via-red-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent 
                         duration-1000"
             >
@@ -37,7 +37,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive
                     ? "no-underline opacity-100 font-bold"
-                    : "opacity-100 sm:line-through sm:decoration-5 sm:decoration-white"
+                    : "opacity-70 sm:line-through sm:decoration-5 sm:decoration-white sm:opacity-100"
                 }
               >
                 <span className="text-yellow-400 sm:hidden">&#40;</span>Projects
@@ -46,7 +46,7 @@ export default function Header() {
             </li>
 
             <li
-              className="opacity-50 sm:opacity-100 sm:decoration-5 sm:decoration-white 
+              className="
                         hover:font-bold hover:bg-gradient-to-r hover:from-orange-400 hover:via-red-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent 
                         duration-1000 sm:translate-y-7"
             >
@@ -55,7 +55,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   isActive
                     ? "no-underline opacity-100 font-bold"
-                    : "opacity-100 sm:line-through sm:decoration-5 sm:decoration-white"
+                    : "opacity-70 sm:line-through sm:decoration-5 sm:decoration-white sm:opacity-100"
                 }
               >
                 Contact<span className="text-blue-700 sm:hidden">&#125;</span>

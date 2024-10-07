@@ -1,6 +1,6 @@
-import ProjectCard from "../components/Card/ProjectCard.jsx";
+import ProjectCard from "../components/Projects/ProjectCard.jsx";
 import projectsData from '../projectsData.json';
-import '../components/Card/Cards.css';
+import '../components/Projects/ProjectCard.css';
 
 
 function Projects() {
