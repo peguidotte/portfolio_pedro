@@ -2,6 +2,9 @@
 
 Este é o repositório do portfólio de Pedro Guidotte, desenvolvido para expor projetos e habilidades. O site foi construído utilizando React e Vite, com diversas bibliotecas e tecnologias para melhorar a experiência do usuário.
 
+## Deploy
+https://portfolio-pedro-smoky.vercel.app/
+
 ## Descrição
 
 O portfólio inclui seções para exibir informações pessoais, habilidades, projetos e formas de contato. Cada projeto possui uma página de detalhes onde mais informações podem ser encontradas.
