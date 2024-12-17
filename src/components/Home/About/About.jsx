@@ -20,19 +20,19 @@ function About() {
         <h2 className=" text-xl sm:text-2xl mb-3">
           Pedro Guidotte,
         </h2>
-        <h1 className='text-xl sm:text-2xl mb-3'>
-          <span className='text-xl sm:text-2xl md:text-4xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent'>
+        <h1 className='text-base sm:text-2xl mb-3'>
+          <span className='text-base sm:text-2xl md:text-4xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent'>
             <ReactTyped
-              strings={['Software Engineer', 'Front End and React', 'Java and Spring']}
+              strings={['Software Engineerring', 'Front End and React', 'Java and Spring']}
               typeSpeed={100}
               backDelay={200}
               backSpeed={100}
               loop
             /></span>
           Student</h1>
-        <p className='mb-5 text-balance'>
+        <p className='text-balance text-xs sm:text-base'>
           Sou um estudante de Engenharia de Software na FIAP e aprofundo meus conhecimentos por conta própria em Java e Front End,
-          com a ambição de me tornar um Dev Full Stack. Estou me capacitando ao máximo para aproveitar alguma oportunidade de estágio no mercado de
+          com a ambição de me tornar um Desenvolvedor Full Stack. Estou me capacitando ao máximo para aproveitar alguma oportunidade de estágio no mercado de
           trabalho.
         </p>
       </div>

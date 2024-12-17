@@ -16,13 +16,13 @@ function ProjectCard({ name, image, description, repo, deploy, date }) {
           />
         </a>
       </div>
-      <div className="flex justify-between items-baseline p-1">
+      <div className="flex justify-between items-baseline p-1 mt-4">
         <h1 className="mb-2 font-extrabold sm:text-lg md:text-2xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent">
           {name}
         </h1>
         <NavLink to={`/projects/${name}`}>
           <button className="flex items-center text-sm gap-2 md:text-base">
-            See details <FaPlus />
+            <FaPlus /> Detalhes 
           </button>
         </NavLink>
       </div>
@@ -34,7 +34,6 @@ function ProjectCard({ name, image, description, repo, deploy, date }) {
           </a>
           <span className="text-gray-600 text-xs">{date}</span>
         </div>
-        
       </div>
     </li>
   );

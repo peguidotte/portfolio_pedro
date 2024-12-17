@@ -1,11 +1,75 @@
 [
+    
+    {
+        "name": "GreenFlow",
+        "description": "Uma aplicação para monitorar o consumo de energia",
+        "image": "/assets/greenflowWeb.png",
+        "repo": "https://github.com/peguidotte/GreenFlow",
+        "deploy": "https://greenflow.vercel.app/",
+        "date": "11/2024",
+        "tools": [
+            {
+                "icon": "RiReactjsFill",
+                "color": "#61DAFB"
+            },
+            {
+                "icon": "RiTailwindCssFill",
+                "color": "#38B2AC"
+            }
+        ],
+        "details": "A Green Flow é uma plataforma web interativa e moderna que visa promover a sustentabilidade através do monitoramento e acompanhamento do consumo de energia elétrica. Com funcionalidades avançadas e uma interface amigável, a plataforma ajuda os usuários a compreenderem seu impacto energético e a tomarem decisões informadas para economizar energia, reduzindo custos e contribuindo para um planeta mais sustentável.",
+        "target": "Público-Alvo: Pessoas e empresas ativas e engajadas com sustentabilidade.",
+        "style": "Estilo Visual: Design moderno, bonito, porém simples de entender. Cores claras e agradáveis, com elementos visuais que remetem à natureza e à energia."
+    },
+    {
+        "name": "GreenFlow - Landing Page",
+        "description": "Uma landing page explicando impactos e benefícios de energia limpa e renovável",
+        "image": "/assets/greenflowFront.png",
+        "repo": "https://github.com/peguidotte/GreenFlow-FrontEnd",
+        "deploy": "https://green-flow-front-end.vercel.app/",
+        "date": "11/2024",
+        "tools": [
+            {
+                "icon": "RiJavascriptFill",
+                "color": "#F7DF1E"
+            },
+            {
+                "icon": "RiBootstrapFill",
+                "color": "#7952B3"
+            }
+        ],
+        "details": "Descrição: Uma landing page para a GreenFlow, uma aplicação que monitora o consumo de energia. A página foi desenvolvida para explicar os impactos e benefícios da energia limpa e renovável, incentivando os usuários a adotarem práticas mais sustentáveis em seu dia a dia.",
+        "target": "Público-Alvo: Pessoas interessadas em sustentabilidade e energia limpa, que desejam aprender mais sobre o assunto e contribuir para um futuro mais verde.",
+        "style": "Estilo Visual: O design é clean e moderno, com cores claras e elementos visuais que remetem à natureza e à energia. A interface é intuitiva e responsiva, proporcionando uma experiência de navegação agradável e informativa."
+    },
+    {
+        "name": "MovieWorld",
+        "description": "Uma aplicação para buscar e descobrir filmes e séries integrada com a API do The Movie Database",
+        "image": "/assets/movieworld.png",
+        "repo": "https://github.com/peguidotte/movieworld",
+        "deploy": "https://movieworld-puce.vercel.app/",
+        "date": "11/2024",
+        "tools": [
+            {
+                "icon": "RiReactjsFill",
+                "color": "#61DAFB"
+            },
+            {
+                "icon": "RiTailwindCssFill",
+                "color": "#38B2AC"
+            }
+        ],
+        "details": "Descrição: O MovieWorld é uma aplicação web que permite aos usuários buscar e descobrir filmes e séries, integrada com a API do The Movie Database. A plataforma oferece uma experiência de navegação intuitiva e interativa, com filtros de pesquisa, categorias e informações detalhadas sobre os títulos, proporcionando uma experiência completa para os amantes do cinema e da televisão.",
+        "target": "Público-Alvo: Amantes de filmes e séries que desejam descobrir novos títulos, obter informações detalhadas e compartilhar recomendações com outros usuários.",
+        "style": "Estilo Visual: O design é moderno e atraente, com cores escuras e elementos visuais que remetem ao cinema e à televisão. A interface não é responsiva por não ter sido a intenção do projeto."
+    },
     {
         "name": "E-PitStop",
         "description": "Uma rede-social interativa criada para a Fórmula E",
         "image": "/assets/EpitStop.png",
         "repo": "https://github.com/peguidotte/E-PitStop__React",
         "deploy": "https://e-pit-stop.vercel.app/",
-        "date": "em andamento",
+        "date": "11/2024",
         "tools": [
             {
                 "icon": "RiReactjsFill",
@@ -53,7 +117,7 @@
         "tools": [
             {
                 "icon": "RiBootstrapFill",
-                "color": "#7952B3"
+                "color": "C"
             },
             {
                 "icon": "FaSass",
